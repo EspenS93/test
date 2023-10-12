@@ -24,7 +24,7 @@
         "path": "/etc/ssh/sshd_config.d/20-change-port.conf",
         "contents": {
           "compression": "",
-          "source": "data:,Port%201993"
+          "source": "data:,Port%2011993"
         },
         "mode": 420
       }
