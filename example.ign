@@ -5,10 +5,28 @@
   "passwd": {
     "users": [
       {
+        "groups": [
+          "docker",
+          "marketing",
+          "wheel"
+        ],
         "name": "espen",
+        "passwordHash": "581fbf27203bbe6bdb03386aac86218655dd59cef41550be43f2322c79258b8facea799e2d27ab44348c0fa615f5332568a210b20ac05cfb2b2f28a977c1fa30",
         "sshAuthorizedKeys": [
           "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAgEAxFVg7UdEnreMKY/ZaLkXCurssRPigsOYXrDc1qi76d3hSIxpMhxhMHrImcXx8uLtcsymzSTbwms6b1ln9EAs5ySHZSg1p51FLaCWkR27vjlmC4B89+vqx5B3LuC1jY9MWv9gFbqPCfobfzNMFawAqM6MjFRQ5E1mMeWWE5VnLw5kqZhfnM6UmLfb09+uTMie6C++pO4l5ddYhsSdVRyl01GL2Qk1XvLYU9nlFGyAqcdIT4a5WjoeS/TQ7JO+7w9yfF70GFauLMjSMz9T8Sw/xW0PoRX+t2wWMwkJ24uTMmn6HlfPysjv2WNGnMHBsCbH3P3ioZuU0m8HPVLkFpNckoHJ+jrNJwr+9MjPw62NsZepsBTHkUwg3JZxuvYGhLv0B9/9V9W52MEu1O9Nzop7eGhFqw7STz3M0Izmq6WsZNvRQdGwDPv4QgkRsIORDtVY3wAVAh4p2ecFrrOWDlI0v/qL1de4jLJzL6i/TIqWyetKEAkkjNZtlD8wl+V4/g3tjucyuA3T3hLlSIoWNESEC9P4SLN7tTYo10pnnz6x9Yt8i46tF3OmF+UC6JxQg/IOB7XRNfdsXTlGCtKuONwSA4cSnuzqWZRQjyoKD0v+w8URfexWP+4jnuwnukH4WRD6u2pv/22vVvFCSnmsgsf5w3Sz/ID99GcznLI+VErQMMk= rsa-key-20190406"
         ]
+      }
+    ]
+  },
+  "storage": {
+    "files": [
+      {
+        "path": "/etc/ssh/sshd_config.d/20-enable-passwords.conf",
+        "contents": {
+          "compression": "",
+          "source": "data:,%23%20Fedora%20CoreOS%20disables%20SSH%20password%20login%20by%20default.%0A%23%20Enable%20it.%0A%23%20This%20file%20must%20sort%20before%2040-disable-passwords.conf.%0APort%201993"
+        },
+        "mode": 420
       }
     ]
   }
