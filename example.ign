@@ -7,7 +7,7 @@
       {
         "groups": [
           "docker",
-          "marketing",
+          "sudo",
           "wheel"
         ],
         "name": "espen",
